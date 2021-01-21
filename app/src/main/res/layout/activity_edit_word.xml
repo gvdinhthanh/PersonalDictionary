@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEditWord"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <EditText
+        android:id="@+id/editTextUpdateWord"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editTextUpdateDescription"
+        android:hint="Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btUpdateWord"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_select"
+        android:fontFamily="@font/cambriab"
+        android:text="Cập nhật"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+</LinearLayout>

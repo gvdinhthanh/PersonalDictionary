@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityAddWord"
+    android:orientation="vertical"
+    android:padding="4dp">
+    <EditText
+        android:id="@+id/editTextAddWord"
+        android:hint="Nhập từ mới (tiếng Anh)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/cambriab"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextAddDescription"
+        android:hint="Nhập nghĩa của từ mới (tiếng Việt)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="@font/cambriab"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btAddWord"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_select"
+        android:fontFamily="@font/cambriab"
+        android:text="Thêm từ"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>

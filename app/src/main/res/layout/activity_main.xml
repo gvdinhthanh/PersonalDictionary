@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagesViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="6"
+        android:src="@drawable/logo"
+        android:contentDescription="Logo" />
+
+    <Button
+        android:id="@+id/bt_add_word_main"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:background="@drawable/button_select"
+        android:drawableStart="@drawable/add_50px"
+        android:fontFamily="@font/cambriab"
+        android:text="Thêm từ mới"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/bt_view_list_words"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/button_select"
+        android:text="Xem danh sách từ điển"
+        android:textSize="20sp"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/cambriab"
+        android:textColor="@color/white"
+        android:drawableStart="@drawable/list_50px"
+        />
+</LinearLayout>
